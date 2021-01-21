@@ -5,7 +5,7 @@
 Copyright (c) 2021 Scott Lau
 """
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 from mysqlhelper import VERSION
 
@@ -16,7 +16,7 @@ setup(
     name='sc-mysqlhelper',
     version='.'.join(str(v) for v in VERSION),
     url='https://github.com/Scott-Lau/sc-mysqlhelper',
-    packages=['mysqlhelper'],
+    packages=find_packages(),
     author='Scott Lau',
     author_email='exceedego@126.com',
     license='MIT',
@@ -24,5 +24,11 @@ setup(
     description='A helper for MySQL using python language',
     long_description=readme,
     keywords='mysql helper connection pool python',
-    install_requires=['pymysql', 'dbutils']
+    install_requires=['pymysql', 'dbutils'],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6'
 )
