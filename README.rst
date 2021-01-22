@@ -47,6 +47,9 @@ Changes
 Version 0.1
     * Initial version
 
+Version 0.1.1
+    * Fix setup issue
+
 License
 -------
 
