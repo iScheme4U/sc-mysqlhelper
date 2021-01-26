@@ -27,8 +27,8 @@ The script itself is currently configuration free.
 Dependencies
 ------------
 
-* PyMySQL
-* DBUtils
+* PyMySQL 1.0.2
+* DBUtils 2.0
 
 
 Usage
@@ -49,6 +49,9 @@ Version 0.1
 
 Version 0.1.1
     * Fix setup issue
+
+Version 0.1.2
+    * Add requirement version number
 
 License
 -------
