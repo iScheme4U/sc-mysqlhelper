@@ -53,6 +53,9 @@ Version 0.1.1
 Version 0.1.2
     * Add requirement version number
 
+Version 0.1.3
+    * Fix setup issue
+
 License
 -------
 
