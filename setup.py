@@ -24,7 +24,10 @@ setup(
     description='A helper for MySQL using python language',
     long_description=readme,
     keywords='mysql helper connection pool python',
-    install_requires=['PyMySQL', 'DBUtils'],
+    install_requires=[
+        'PyMySQL==1.0.2',
+        'DBUtils==2.0'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
