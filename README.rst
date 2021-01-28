@@ -1,3 +1,8 @@
+.. image:: https://badge.fury.io/py/sc-mysqlhelper.svg
+    :target: https://badge.fury.io/py/sc-mysqlhelper
+.. image:: https://img.shields.io/pypi/pyversions/sc-mysqlhelper
+    :alt: PyPI - Python Version
+
 MySQL helper for Python
 ========================================
 
