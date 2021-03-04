@@ -1,0 +1,2 @@
+PyMySQL>=1.0.2
+DBUtils>=2.0

@@ -46,21 +46,6 @@ Sample usage::
     rs = helper.select_one(sql="select count(*) from users")
     print(rs[0])
 
-Changes
--------
-
-Version 0.1
-    * Initial version
-
-Version 0.1.1
-    * Fix setup issue
-
-Version 0.1.2
-    * Add requirement version number
-
-Version 0.1.3
-    * Fix setup issue
-
 License
 -------
 
